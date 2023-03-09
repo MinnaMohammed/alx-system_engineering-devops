@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lah $dir
+ls -lahn $dir
