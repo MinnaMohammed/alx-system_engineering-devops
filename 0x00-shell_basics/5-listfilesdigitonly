@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lahn $dir
+ls -lan $dir
