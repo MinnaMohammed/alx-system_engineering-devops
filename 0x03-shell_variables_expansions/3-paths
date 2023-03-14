@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH |cut -f 1 -d ":" |wc -l
+echo $PATH |cut -f 1 -d ":/" |wc -l
