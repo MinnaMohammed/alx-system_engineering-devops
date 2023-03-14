@@ -1,2 +1,2 @@
 #!/bin/bash
-echo expr $((128+ $TRUEKNOWLEDGE))
+x=128 | echo (($x + $TRUEKNOWLEDGE))
