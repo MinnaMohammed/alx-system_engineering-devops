@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $WATER| tr water 01234| echo $((5#$WATER)) | echo $STIR | tr stir 0123 | echo $((5#$STIR)) | echo $(($WATER + $STIR))
+WATER=$((WATER + STIR))| echo "$WATER"
