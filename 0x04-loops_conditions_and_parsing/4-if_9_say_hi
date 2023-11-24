@@ -8,7 +8,7 @@ do
 	if [ $cnt -eq 9 ]
 	then
 		echo "Hi"
-	fi
 	echo "Best School"
+	fi
 	((cnt++))
 done
