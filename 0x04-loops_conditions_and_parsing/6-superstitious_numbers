@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A script that displays numbers from 1 to 20
 
-cnt=0
+cnt=1
 while [ $cnt -le 20 ]
 do
 	echo "$cnt"
