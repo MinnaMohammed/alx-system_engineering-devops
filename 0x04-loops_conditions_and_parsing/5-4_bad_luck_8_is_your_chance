@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# A script that displays "Best School" 10 times using a while loop.
+
+cnt=0
+while [ $cnt -lt 10 ]
+do
+	if [ $cnt -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $cnt -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((cnt++))
+done
