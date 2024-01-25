@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#creating SSH client configuration file
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
+    HostName 35.168.1.210
+    User ubuntu
+    PreferredAuthentications publickey
