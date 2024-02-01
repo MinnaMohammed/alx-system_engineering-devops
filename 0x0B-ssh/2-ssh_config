@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#creating SSH client configuration file
-Host *
-    PasswordAuthentication no
-    IdentityFile ~/.ssh/school
-    HostName 54.172.125.126
-    User ubuntu
-    PreferredAuthentications publickey
