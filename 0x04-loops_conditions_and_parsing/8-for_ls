@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#A Bash script that displays the content of a dir (only the name part)
+
+# '*' is a wildcard representin gthe current dir
+for i in *; do
+	#${variable#pattern}
+	echo "${i#*-}"
+done
