@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#A Bash script that displays specfic fields from the file /etc/passwd.
+file="/etc/passwd"
+while IFS=":" read -r usrname _ uid _ _ home _; do
+	echo "$usrname:$uid:$home"
+done < "$file"
