@@ -3,4 +3,5 @@
 file="/etc/passwd"
 while IFS=":" read -r usrname _ uid _ _ home _; do
 	echo "$usrname:$uid:$home"
+# "< "$file"" tells the shell to use the contents of the file as input for the while loop
 done < "$file"
