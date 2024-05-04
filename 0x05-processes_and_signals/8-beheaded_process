@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 #A Bash script that kills the process 7-highlander.
 
-
-# Find the PID of the process named "7-highlander"
-pid=$(ps aux | grep "7-highlander" | grep -v grep | awk '{print $2}')
-
-# Check if the process is running
-if [ -n "$pid" ]; then
-    # Send a termination signal to the process
-    kill "$pid"
-fi
+#Find the process named "7-highlander" and sends a SIGTERM signal to it
+pkill -SIGTERM -f "7-highlander"
