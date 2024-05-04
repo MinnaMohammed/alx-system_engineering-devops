@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #A Bash script that displays a list of running processes with hierarchy and user-oriented format
-ps auxf --forest --no-headers | sort -n -r -k 2,3
+ps auxfj
